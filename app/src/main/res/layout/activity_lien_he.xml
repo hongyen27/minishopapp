@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LienHeActivity"
+    android:background="#FDEEE9">
+    <androidx.appcompat.widget.Toolbar
+        android:background="#2196F3"
+        android:id="@+id/toolbarlienhe"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:title="Trang chính">
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin liên hệ"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+    </TextView>
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+        <ImageView
+            android:src="@drawable/canhan"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Họ và tên: Lê Hồng Yến"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+        <ImageView
+            android:src="@drawable/email"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Email: lehongyen98@gmail.com"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+        <ImageView
+            android:src="@drawable/dt"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Điện thoại: 0344964466"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

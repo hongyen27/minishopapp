@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DamThietKeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/toolbardamthietke"
+        app:title="Danh sách sản phẩm"
+        app:titleTextColor="@color/white"
+        android:background="#2196F3">
+    </androidx.appcompat.widget.Toolbar>
+    <ListView
+        android:background="#FDEEE9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listviewdamthietke">
+
+    </ListView>
+</LinearLayout>
